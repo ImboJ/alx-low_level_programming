@@ -2,9 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*A random number assigned to the variable n each time it is executed
+*main - Check a relationship of a number to 0
+*var_n - stores diff numbers evertime
 *
-* main - Entry point
+* Arandom number assigned to var_n whenever executed
+* var_n is positive-checks if n is greater than 0
+* var_n is negative-checks if n is less than 0
+* otherwise var_n is zero
 *
 * Return: Always 0 (Success)
 */
