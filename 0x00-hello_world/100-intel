@@ -1,2 +1,2 @@
-#! / bin / bash
+#!/bin/bash
 gcc -m32 -masm=intel -S $CFILE.c -o $CFILE.s
