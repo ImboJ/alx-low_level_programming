@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* A random number assigned to the variable n each time it is executed */
 
 /* betty style doc for function main goes there */
@@ -17,11 +18,11 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		print("%d is less than zero\n", n);
+		printf("%d is less than zero\n", n);
 	}
 	else
 	{
-		print("%d is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
