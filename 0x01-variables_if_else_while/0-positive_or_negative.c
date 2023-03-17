@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- *
- * A random number assigned to the variable n each time it is executed
-*/
+
+/*A random number assigned to the variable n each time it is executed*/
+
 int main(void)
 {
 	int n;
