@@ -19,7 +19,6 @@ int main(void)
 
 	i = 0;
 	j = 0;
-	k = 0;
 
 	while (i < 99)
 	{
