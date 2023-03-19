@@ -20,18 +20,18 @@ int main(void)
 	i = 0;
 	j = 0;
 
-	while (i < 10)
+	while (i < 9)
 	{
 		for (j = 0; j < 10; j++)
 		{
 			putchar(i + '0');
 			putchar(j + '0');
-		
-		if (i <= 9 || j < 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+
+			if (i <= 8 || j < 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 		i++;
 	}
