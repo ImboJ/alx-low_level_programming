@@ -5,7 +5,6 @@
  * 2 sets of numbers are space separated
  * all numbers are printed with 2 digits
  * combination of numbers are comma separated
- * print only smallest combination of the numbers
  * use putchar function 8 times
  * don't use variable char
  *
