@@ -86,7 +86,3 @@ int check_for_digits(char **av)
 	return (0);
 }
 
-/**
-* init - initializes a string
-* @str: sting to initialize
-
