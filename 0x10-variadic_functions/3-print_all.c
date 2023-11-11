@@ -40,10 +40,8 @@ void print_all(const char * const format, ...)
 				i++;
 			}
 			if (!str)
-			{
 				str = "(nil)";
-				printf("%s%s", sep, str);
-			}
+			printf("%s%s", sep, str);
 		}
 		printf("\n");
 		va_end(list);
