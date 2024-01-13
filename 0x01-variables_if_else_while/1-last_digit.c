@@ -3,12 +3,12 @@
 #include <stdio.h>
 /**
 *main - Checks the value of the last digit of a number
-*var_n - stores diff numbers evertime
+*n - stores diff numbers evertime
 *
-* Divide the var_n by 10 to find the last digit var_last
-* var_last is greater than 5_checks if btwn 6-9
-* var_last less than 6 and not 0-checks if btwn 1-5
-* otherwise var_last is zero
+* Divide n by 10 and det remainder to find the last digit n_last
+* n_last is greater than 5-checks if btwn 6-9
+* n_last less than 6 and not 0-checks if btwn 1-5
+* otherwise n_last is zero
 *
 * Return: Always 0 (Success)
 */
